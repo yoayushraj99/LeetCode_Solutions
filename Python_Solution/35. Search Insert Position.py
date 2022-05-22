@@ -1,5 +1,8 @@
 # Level :- Easy
 
+from typing import List
+
+
 def searchInsert(nums: List[int], target: int) -> int:
     start = 0
     end = len(nums) - 1
