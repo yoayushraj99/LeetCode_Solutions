@@ -8,7 +8,7 @@ def twoSum(self, nums: List[int], target: int) -> List[int]:
             if nums[i] + nums[j] == target:
                 return [i, j]
 
-# Method-2 Mathematician Approach
+# Method-2 Pro Approach
 
 def twoSum(self, nums: List[int], target: int) -> List[int]:
     dict = {}
